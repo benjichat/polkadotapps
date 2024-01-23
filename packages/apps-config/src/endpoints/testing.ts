@@ -21,7 +21,8 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'data-avail',
     providers: {
-      AVAIL: config.TESTNETURL
+      AVAIL: config.TESTNETURL,
+      'Dwellir': 'wss://avail-rpc.dwellir.com'
     },
     text: 'Avail-Testnet',
     ui: {
